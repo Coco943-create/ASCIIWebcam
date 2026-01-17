@@ -29,7 +29,7 @@ let cursorLast = 0;
 let cursorInterval = 450;
 
 // Bottom prompt
-let prompts = ['Are you still there?', 'Say something...', 'Please wait...'];
+let prompts = ['Are you still there?', 'Say something...';
 let currentPrompt = '';
 let promptIndex = 0;
 let typing = true;
@@ -368,3 +368,4 @@ function updateGrid() {
 function windowResized() {
   updateGrid();
 }
+
